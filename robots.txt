@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: https://devdestiny.github.io/BSSE51F21S028/sitemap.xml
