@@ -28,7 +28,7 @@
 .container form .row{
   display: flex;
   flex-wrap: wrap;
-  gap:35px;
+  gap:100px;
 }
 
 .container form .row .col{
