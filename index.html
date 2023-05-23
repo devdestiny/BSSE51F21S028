@@ -1,122 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>M Usama(BSSE51F21S028)</title>
-    <meta charset="UTF-8">
-    <meta name="google-site-verification" content="ojYpvN3bx6bBHg7FAkO3uqBzknASk9qEP8_38WCNFFI" />
+    <meta charset="UTF-8" />
+    <meta
+      name="google-site-verification"
+      content="ojYpvN3bx6bBHg7FAkO3uqBzknASk9qEP8_38WCNFFI"
+    />
     <meta name="robots" content="index, follow" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Admission form sample for begginer web developer for practice">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Admission form sample for begginer web developer for practice"
+    />
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="20230413_015459.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="20230413_015459.png" />
     <style>
-        .f_d{
-            width:100%;
-            background-color:gray;
-        }
+      .f_d {
+        width: 100%;
+        background-color: rgba(204, 202, 202, 0.393);
+        padding: 80px 60px;
+        text-align: justify;
+      }
     </style>
-
-</head>
-<body>
-
-<div class="container">
-
-    <form action="">
-
+  </head>
+  <body>
+    <div class="container">
+      <form>
         <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
 
-            <div class="col">
-
-                <h3 class="title">billing address</h3>
-
-                <div class="inputBox">
-                    <span>full name :</span>
-                    <input type="text" placeholder="john deo">
-                </div>
-                <div class="inputBox">
-                    <span>email :</span>
-                    <input type="email" placeholder="example@example.com">
-                </div>
-                <div class="inputBox">
-                    <span>address :</span>
-                    <input type="text" placeholder="room - street - locality">
-                </div>
-                <div class="inputBox">
-                    <span>city :</span>
-                    <input type="text" placeholder="Faisalabad">
-                </div>
-
-                <div class="flex">
-                    <div class="inputBox">
-                        <span>state :</span>
-                        <input type="text" placeholder="pakistan">
-                    </div>
-                    <div class="inputBox">
-                        <span>zip code :</span>
-                        <input type="text" placeholder="123 456">
-                    </div>
-                </div>
-
+            <div class="inputBox">
+              <span>full name :</span>
+              <input type="text" placeholder="john deo" />
+            </div>
+            <div class="inputBox">
+              <span>email :</span>
+              <input type="email" placeholder="example@example.com" />
+            </div>
+            <div class="inputBox">
+              <span>address :</span>
+              <input type="text" placeholder="room - street - locality" />
+            </div>
+            <div class="inputBox">
+              <span>city :</span>
+              <input type="text" placeholder="Faisalabad" />
             </div>
 
-            <div class="col">
-
-                <h3 class="title">payment</h3>
-
-                <div class="inputBox">
-                    <span>cards accepted :</span>
-                    <img src="card_img.png" alt="">
-                </div>
-                <div class="inputBox">
-                    <span>name on card :</span>
-                    <input type="text" placeholder="mr. john deo">
-                </div>
-                <div class="inputBox">
-                    <span>credit card number :</span>
-                    <input type="number" placeholder="1111-2222-3333-4444">
-                </div>
-                <div class="inputBox">
-                    <span>exp month :</span>
-                    <input type="text" placeholder="january">
-                </div>
-
-                <div class="flex">
-                    <div class="inputBox">
-                        <span>exp year :</span>
-                        <input type="number" placeholder="2023">
-                    </div>
-                    <div class="inputBox">
-                        <span>CVV :</span>
-                        <input type="text" placeholder="1234">
-                    </div>
-                </div>
-
+            <div class="flex">
+              <div class="inputBox">
+                <span>state :</span>
+                <input type="text" placeholder="pakistan" />
+              </div>
+              <div class="inputBox">
+                <span>zip code :</span>
+                <input type="text" placeholder="123 456" />
+              </div>
             </div>
-    
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+
+            <div class="inputBox">
+              <span>cards accepted :</span>
+              <img src="card_img.png" alt="" />
+            </div>
+            <div class="inputBox">
+              <span>name on card :</span>
+              <input type="text" placeholder="mr. john deo" />
+            </div>
+            <div class="inputBox">
+              <span>credit card number :</span>
+              <input type="number" placeholder="1111-2222-3333-4444" />
+            </div>
+            <div class="inputBox">
+              <span>exp month :</span>
+              <input type="text" placeholder="january" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>exp year :</span>
+                <input type="number" placeholder="2023" />
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" placeholder="1234" />
+              </div>
+            </div>
+          </div>
         </div>
 
-        <input type="submit" value="proceed to checkout" class="submit-btn">
-
-    </form>
-
-</div>   
-    <div class="f_d">
-        <h2>HTML</h2>
-        <p>
-            HTML forms are a key component of web development that allow users to interact with a website by submitting information. Forms can be used for a wide variety of purposes, including collecting user data, registering for events, and processing online payments. The basic structure of an HTML form consists of input fields, labels, and buttons that allow users to enter and submit information. HTML forms can also be customized with additional features such as validation rules to ensure that user input is correct and secure. By using HTML forms, web developers can create dynamic and interactive websites that provide a seamless user experience.
-            One of the key advantages of HTML forms is their versatility and flexibility. Forms can be customized to suit a wide variety of use cases and can be integrated with other web development technologies such as CSS and JavaScript to create rich, interactive user interfaces. HTML forms can also be integrated with server-side technologies such as PHP and ASP.NET to process user input and store data in a database. With the help of HTML forms, web developers can create complex web applications that provide users with a high level of functionality and interactivity.
-        </p>
-        <h3>CSS</h3>
-        <p>
-            CSS, or Cascading Style Sheets, is a crucial component of web development that allows web developers to control the visual appearance of a website. CSS enables developers to define the layout, colors, fonts, and other visual elements of a webpage, separate from the HTML content. By separating the presentation from the content, CSS provides greater flexibility in website design and enables developers to create more visually appealing and user-friendly websites.
-
-CSS works by using selectors to target specific HTML elements and applying styles to those elements. Styles can be defined using a variety of CSS properties, such as font-size, background-color, and margin. CSS also allows for the creation of more complex layouts using techniques such as flexbox and grid. By using CSS, web developers can create a cohesive and consistent design across all pages of a website, making it easier for users to navigate and interact with the content.
-
-One of the major benefits of using CSS is its ability to make websites responsive and mobile-friendly. With the increasing use of mobile devices to access the internet, it's important for websites to be optimized for different screen sizes and resolutions. CSS provides a range of tools and techniques, such as media queries and responsive design frameworks, that allow developers to create websites that adapt to different devices and screen sizes. This not only improves the user experience but also helps to improve search engine rankings, as responsive designs are favored by search engines like Google.
-        </p>    
+        <input type="submit" value="proceed to checkout" class="submit-btn" />
+      </form>
     </div>
-    
-</body>
+    <div class="f_d">
+      <h2>HTML</h2>
+      <p>
+        HTML forms are a key component of web development that allow users to
+        interact with a website by submitting information. Forms can be used for
+        a wide variety of purposes, including collecting user data, registering
+        for events, and processing online payments. The basic structure of an
+        HTML form consists of input fields, labels, and buttons that allow users
+        to enter and submit information. HTML forms can also be customized with
+        additional features such as validation rules to ensure that user input
+        is correct and secure. By using HTML forms, web developers can create
+        dynamic and interactive websites that provide a seamless user
+        experience. One of the key advantages of HTML forms is their versatility
+        and flexibility. Forms can be customized to suit a wide variety of use
+        cases and can be integrated with other web development technologies such
+        as CSS and JavaScript to create rich, interactive user interfaces. HTML
+        forms can also be integrated with server-side technologies such as PHP
+        and ASP.NET to process user input and store data in a database. With the
+        help of HTML forms, web developers can create complex web applications
+        that provide users with a high level of functionality and interactivity.
+      </p><br>
+      <h3>CSS</h3>
+      <p>
+        CSS, or Cascading Style Sheets, is a crucial component of web
+        development that allows web developers to control the visual appearance
+        of a website. CSS enables developers to define the layout, colors,
+        fonts, and other visual elements of a webpage, separate from the HTML
+        content. By separating the presentation from the content, CSS provides
+        greater flexibility in website design and enables developers to create
+        more visually appealing and user-friendly websites. CSS works by using
+        selectors to target specific HTML elements and applying styles to those
+        elements. Styles can be defined using a variety of CSS properties, such
+        as font-size, background-color, and margin. CSS also allows for the
+        creation of more complex layouts using techniques such as flexbox and
+        grid. By using CSS, web developers can create a cohesive and consistent
+        design across all pages of a website, making it easier for users to
+        navigate and interact with the content. One of the major benefits of
+        using CSS is its ability to make websites responsive and
+        mobile-friendly. With the increasing use of mobile devices to access the
+        internet, it's important for websites to be optimized for different
+        screen sizes and resolutions. CSS provides a range of tools and
+        techniques, such as media queries and responsive design frameworks, that
+        allow developers to create websites that adapt to different devices and
+        screen sizes. This not only improves the user experience but also helps
+        to improve search engine rankings, as responsive designs are favored by
+        search engines like Google.
+      </p>
+    </div>
+  </body>
 </html>
